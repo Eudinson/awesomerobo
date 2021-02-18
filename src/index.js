@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import Card from './Card.js';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
+// import { robots } from './robots.js';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ 
+<React.StrictMode>
+  <App />
+ </React.StrictMode>, 
   document.getElementById('root')
 );
 
