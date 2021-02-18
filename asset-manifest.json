@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/awesomerobo/static/css/main.6fb64430.chunk.css",
+    "main.js": "/awesomerobo/static/js/main.d0e69e77.chunk.js",
+    "main.js.map": "/awesomerobo/static/js/main.d0e69e77.chunk.js.map",
+    "runtime-main.js": "/awesomerobo/static/js/runtime-main.2ae6a00d.js",
+    "runtime-main.js.map": "/awesomerobo/static/js/runtime-main.2ae6a00d.js.map",
+    "static/js/2.3643c4d9.chunk.js": "/awesomerobo/static/js/2.3643c4d9.chunk.js",
+    "static/js/2.3643c4d9.chunk.js.map": "/awesomerobo/static/js/2.3643c4d9.chunk.js.map",
+    "static/js/3.f66e3b02.chunk.js": "/awesomerobo/static/js/3.f66e3b02.chunk.js",
+    "static/js/3.f66e3b02.chunk.js.map": "/awesomerobo/static/js/3.f66e3b02.chunk.js.map",
+    "index.html": "/awesomerobo/index.html",
+    "static/css/main.6fb64430.chunk.css.map": "/awesomerobo/static/css/main.6fb64430.chunk.css.map",
+    "static/js/2.3643c4d9.chunk.js.LICENSE.txt": "/awesomerobo/static/js/2.3643c4d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ae6a00d.js",
+    "static/js/2.3643c4d9.chunk.js",
+    "static/css/main.6fb64430.chunk.css",
+    "static/js/main.d0e69e77.chunk.js"
+  ]
+}
