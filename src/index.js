@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import Card from './Card.js';
-import App from './App.js';
+import App from './containers/App.js';
 import reportWebVitals from './reportWebVitals';
 // import { robots } from './robots.js';
 

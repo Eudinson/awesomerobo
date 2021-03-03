@@ -1,26 +1,33 @@
 import React, { Component } from 'react';
-import CardList from './CardList.js'
-import { robots } from './robots.js';
-import SearchBox from './SearchBox.js';
-import './Card.css';
+import CardList from '../components/CardList.js'
+import SearchBox from '../components/SearchBox.js';
+import '../components/Card.css';
 
 class App extends Component {
 
     constructor() {
         super()
         this.state = {
-            robots: robots,
+            robots: [],
             searchfield: ''
         }
     }
 
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(response => { return response.json() })
+            .then(users => {
+                this.setState({ robots: users })
+            })
+    }
     onSearch = (event) => {
         this.setState({ searchfield: event.target.value });
     }
 
     render() {
-        const filterRobot = this.state.robots.filter(robots => {
-        return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+        const {robots, searchfield} = this.state;
+        const filterRobot = robots.filter(robots => {
+            return robots.name.toLowerCase().includes(searchfield.toLowerCase());
         })
         return (
             <div>
